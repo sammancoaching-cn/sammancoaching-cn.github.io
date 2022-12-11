@@ -1,12 +1,12 @@
 ---
 layout: code_smell
-title: Divergent Change
+title: 发散式变化（Divergent Change）
 source: Martin Fowler
 ---
 
-# Divergent Change
-This is not so much something you can see from reading the code, rather it's something that happens when you try to change the code. You call it 'divergent change' when lots of different kinds of changes all affect the same module or class. You would prefer to have a design where you can go in and make a change without having to take into account a lot of other code nearby that doesn't need to change. 
+# 发散式变化（Divergent Change）
+这不是在阅读代码时看到的东西，而是在当你尝试修改代码时发生的事情。当很多不同类型的改变都影响到同一个模块或类时，称之为 "发散式变化（Divergent Change）"。你更希望有一个设计，你可以进去做一个修改，而不需要考虑到附近很多不需要修改的代码。
 
-This code smell does actually stem from a design problem though. Divergent change is a sign that module or class is not cohesive enough.
+不过，这种代码坏味道实际上是因为设计问题。发散式变化（Divergent Change）是模块或类不够内聚的标志。
 
-Note: this is similar but different to [Shotgun Surgery](shotgun_surgery.html) which is a sign your design has a coupling problem.
+注意：这与[霰弹式修改](shotgun_surgery.html)相似但不同，后者是你的设计有耦合问题的标志。

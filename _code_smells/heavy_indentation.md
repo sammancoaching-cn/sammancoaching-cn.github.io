@@ -1,10 +1,11 @@
 ---
 layout: code_smell
-title: Heavy Indentation
+title: 沉重的缩进（Heavy Indentation）
 source: Emily Bache
 ---
 
-# Heavy Indentation
-Most code is easier to read if all the code in the same block has the same level of indentation, and most editors will automatically format code with indentation if you ask them to. You notice a heavy indentation smell when the code has so many nested conditionals and loops that the indentation gets very deep, and/or varies a lot.
+# 沉重的缩进（Heavy Indentation）
 
-Heavy indentation is a sign that the [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity) of the code is high, and the code is difficult to read and comprehend. The human brain has a limit of how much complexity it can hold at once, and heavily indented code is very likely to be beyond human capabilities of comprehension just because there are so many things to keep in mind at once.
+如果同一区块中的所有代码都有相同的缩进程度，大多数代码会更容易阅读，而且如果你要求的话，大多数编辑器会自动用缩进的方式格式化代码。当代码中有许多嵌套的条件和循环时，你会注意到沉重的缩进味道，缩进变得非常深，和/或变化很大。
+
+沉重的缩进是代码的[圈复杂度](https://en.wikipedia.org/wiki/Cyclomatic_complexity)很高的标志，而且代码很难阅读和理解。人类的大脑对于一次能容纳多少复杂的东西是有限制的，大量缩进的代码很可能超出人类的理解能力，因为有太多的东西需要同时记住。

@@ -1,8 +1,8 @@
 ---
 layout: code_smell
-title: Data Class
+title: 纯数据类（Data Class）
 source: Martin Fowler
 ---
 
-# Data Class
-The class has fields, ie mutable state, but no other behaviour. There may be get and set methods for the fields, or they may be public. There could be functions elsewhere that operate on this data which could be moved here to make a more object-oriented design.
+# 纯数据类（Data Class）
+这种类有字段，即可变的状态，但没有其他行为。这些字段可能有获取和设置的方法，也可能是公共的。在其他地方可能有对这些数据进行操作的函数，这些函数可以移到这里，使之成为一个更面向对象的设计。

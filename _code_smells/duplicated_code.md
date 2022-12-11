@@ -1,9 +1,9 @@
 ---
 layout: code_smell
-title: Duplicated Code
+title: 重复代码（Duplicated Code）
 source: Martin Fowler
 wikipedia_source: true
 ---
 
-# Duplicated Code
-When you have the same code in more than one place, perhaps with small variations. Every time you want to make a change in the duplicated section of code, you will need to find all the copies and decide whether to update them too. This can lead to [shotgun surgery](shotgun_surgery.html).
+# 重复代码（Duplicated Code）
+当你在不止一个地方有相同的代码，也许还有小的变化。每当你想对重复的代码部分进行修改时，你需要找到所有的副本，并决定是否也要更新它们。这也可能会引起 [霰弹式修改（Shotgun Surgery）](shotgun_surgery.html)。
