@@ -1,8 +1,8 @@
 ---
 layout: code_smells_index
-title: Code Smells
+title: 代码 坏味道
 ---
 
-# Code Smells
+# 代码 坏味道
 
-This is a collection of descriptions of [Code Smells](https://www.martinfowler.com/bliki/CodeSmell.html). The descriptions are original to this site although many of the names are taken from Martin Fowler's book "Refactoring" 2nd Edition.
+这是一个关于[代码坏味道](https://www.martinfowler.com/bliki/CodeSmell.html)的描述集合。尽管许多名字来自 Martin Fowler 的书 《重构》第二版，但这些描述是本网站的原创。

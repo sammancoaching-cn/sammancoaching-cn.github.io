@@ -1,9 +1,9 @@
 ---
 layout: code_smell
-title: Mysterious Name
+title: 神秘命名（Mysterious Name）
 source: Martin Fowler
 wikipedia_source: true
 ---
 
-# Mysterious Name
-When a code element like a function, class or variable has a name that is obscure or difficult to understand. What you want instead is for name to clearly communicate what the code element does and how to use it.
+# 神秘命名（Mysterious Name）
+当一个代码元素比如函数、类或变量有一个晦涩难懂的名字时。你希望名字能够清楚地表达代码元素的作用和如何使用它。

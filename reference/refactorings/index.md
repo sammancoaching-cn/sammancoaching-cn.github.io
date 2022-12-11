@@ -1,27 +1,27 @@
 ---
 layout: refactorings_index
-title: Refactorings
+title:  重构
 ---
 
-# Refactorings
+# 重构
 
-This is a collection of descriptions of [Refactorings](https://refactoring.com/). The descriptions are original to this site although many of the names are taken from Martin Fowler's book "Refactoring" 2nd Edition.
+这是一个关于[重构](https://refactoring.com/)的描述集合。尽管许多名字来自 Martin Fowler 的书 《重构》第二版，但这些描述是本网站的原创。
 
-## Refactoring structure
-Each refactoring is described using the structure "Identify - Prepare - Refactor - Clean - Follow up".
+## 重构的结构
+每个重构都是用 "识别-准备-重构-清理-跟进" 的结构来描述的。
 
-* Identify - find the program element(s) you want to transform.
-* Prepare - before you do the transformation, work on making that change easier. This can mean researching the impact of the planned change, or doing some preparatory refactorings to make it easier.
-* Refactor - follow these steps to complete the design transformation.
-* Clean - remove any preparations or scaffolding that is not needed now the refactoring is completed.
-* Follow up - suggestions of further refactoring steps that are now possible.
+* 识别 - 找到你要改造的程序元素。
+* 准备 - 在你进行改造之前，努力使这种改变更容易。这可能意味着研究计划中的变化的影响，或者做一些准备性的重构以使其更容易。
+* 重构 - 按照这些步骤来完成设计转换。
+* 清理 - 删除任何准备工作或脚手架，现在重构已经完成，不需要了。
+* 后续行动 - 建议进一步的重构步骤，现在可以了。
 
-## IDE Support
-In some cases the refactoring descriptions includes references to ways your IDE can help you do them more safely. This is intended to help you use your tools better, but be warned - IDEs differ in details and are frequently updated. Descriptions may not always be entirely correct. If there is a note your IDE can help you but yours doesn't seem to do that, look around the menus and see if the assistance is there just under another name.
+## IDE 支持
+在某些情况下，重构的描述包括参考你的 IDE 可以帮助你更安全地完成重构的方法。这是为了帮助你更好地使用你的工具，但请注意 - IDE 的细节不同，而且经常更新。描述可能并不总是完全正确的。如果有一个说明你的 IDE 可以帮助你，但你的 IDE 似乎没有这样做，请在菜单中寻找，看看这种帮助是否就在那里，只是用另一个名字。
 
-In the JetBrains family of tools I recommend looking in these three menus when you right click on a program element:
-* "Context Actions".
-* "Refactor This" - also available on the top level "Refactor" menu.
-* "Generate" - also available on the top level "Code" menu.
+在 JetBrains 的工具系列中，我建议当你右击一个程序元素时在这 3 个菜单中寻找。
+* "上下文操作 - Context Action"。
+* "重构这里 - Refactor This" - 也可在顶层的菜单 "重构 Refactor" 中找到。
+* "生成 - Generate " --也可在顶层的 "代码 Code" 菜单中找到。
 
-Once you've found the option you want, I recommend learning the keyboard shortcut for it.
+一旦你找到了你想要的选项，我建议学习它的键盘快捷键。

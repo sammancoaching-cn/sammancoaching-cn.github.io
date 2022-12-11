@@ -3,22 +3,22 @@ layout: homepage
 ---
 {{ content }}
 
-<h2>Sources</h2>
+<h2>来源</h2>
 <p>
 <ul>
     {% if page.source == 'Martin Fowler' %}
-        <li>This smell is included Martin Fowler's book "Refactoring", 2nd Edition</li>
+        <li>这种坏味道收录在 Martin Fowler 的《重构》一书中，第二版</li>
     {% endif %}
     {% if page.wikipedia_source == true %}
-        <li> This smell is included among wikipedia's <a href="https://en.wikipedia.org/wiki/Code_smell">code smells</a></li>
+        <li> 这种坏味道被收录在维基百科的 <a href="https://en.wikipedia.org/wiki/Code_smell">代码坏味道</a></li>
     {% endif %}
     {% if page.source != 'Martin Fowler' %}
-        <li>This smell was contributed to this site by {{ page.source }}</li>
+        <li>这种坏味道是由以下人员贡献给本网站的 {{ page.source }}</li>
     {% endif %}
 
 </ul>
 </p>
 
 <p>
-    Back to <a href="/reference/code_smells/index.html">All Code Smells</a>
+    返回到 <a href="/reference/code_smells/index.html">全部 代码坏味道</a>
 </p>

@@ -1,9 +1,9 @@
 ---
 layout: code_smell
-title: Data Clumps
+title: 数据泥团（Data Clumps）
 source: Martin Fowler
 wikipedia_source: true
 ---
 
-# Data Clumps
-When the same group of fields or parameters or classes often crop up together. If you removed one of the, would the remaining elements of the data clump still make sense? Perhaps they belong together in a new class. 
+# 数据泥团（Data Clumps）
+当同一组字段或参数或类经常出现在一起时。如果你去掉其中的一个，那么众多数据项中剩下的元素是否还有意义？也许它们属于一个新的类。

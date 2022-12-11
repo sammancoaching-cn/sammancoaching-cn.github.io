@@ -1,10 +1,10 @@
 ---
 layout: code_smell
-title: Speculative Generality
+title: 夸夸其谈的通用性（Speculative Generality）
 source: Martin Fowler
 ---
 
-# Speculative Generality
-Extra code and hooks and special cases to handle things that aren't (yet) required. Someone thought that you would need this code to support additional functionality that hasn't been built yet. Often this code has been around for years and no-one has needed it yet.
+# 夸夸其谈的通用性（Speculative Generality）
+额外的代码和钩子以及特殊情况来处理那些（还）不需要的东西。有人认为你会需要这些代码来支持尚未建立的额外功能。通常这些代码已经存在多年，但还没有人需要它。
 
-Sometimes you can spot this code when the only users of it are in a test case. Sometimes your IDE will be able to highlight parameters that aren't used as well as other kinds of dead code.
+有时你可以在测试案例中发现这段代码的唯一用户。有时，你的 IDE 能够突出显示不使用的参数以及其他类型的死代码。

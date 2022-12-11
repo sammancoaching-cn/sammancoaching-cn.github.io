@@ -1,13 +1,15 @@
 ---
 layout: code_smell
-title: Shotgun Surgery
+title: 霰弹式修改（Shotgun Surgery）
 source: Martin Fowler
 wikipedia_source: true
 ---
 
-# Shotgun Surgery
-This is not so much something you can see from reading the code, rather it's something that happens when you try to change the code. You call it 'shotgun surgery' when you want to change one thing and it ends up you have to make a lot of additional changes before the original thing is working properly. It's particularly bad if the additional changes are all over the place and you're not sure if you missed some.
+# 霰弹式修改（Shotgun Surgery）
+这不是在阅读代码时看到的东西，而是在当你尝试修改代码时发生的事情。当很多不同类型的改变都影响到同一个模块或类时，称之为 "发散式变化（Divergent Change）"。你更希望有一个设计，你可以进去做一个修改，而不需要考虑到附近很多不需要修改的代码。
 
-This code smell does actually stem from a design problem though. Things that change together should be put together. If you have to make a lot of edits all over the place to make one logical change then it's a sign your design is has a coupling problem.
+这不是在阅读代码时看到的东西，而是在当你尝试修改代码时发生的事情。当你想改变一件事时，你会把它称为 "霰弹式修改（Shotgun Surgery）"，结果你必须在原来的事情正常工作之前做很多额外的改变。如果这些额外的修改都是到处都是，而且你不确定你是否错过了一些，那就更糟糕了。
 
-Note: this is similar but different to [Divergent Change](divergent_change.html) which is a sign your design has a cohesion problem.
+这种代码坏味道实际上是因为设计问题。一起变化的东西应该放在一起。如果你必须在各个地方进行大量的编辑才能做出一个合理的改变，那么这就说明你的设计存在着耦合问题。
+
+注意：这与[发散式变化（Divergent Change）](divergent_change.html)相似但不同，后者是你的设计有一个内聚问题的标志。

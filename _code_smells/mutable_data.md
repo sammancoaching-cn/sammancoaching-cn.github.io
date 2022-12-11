@@ -1,11 +1,11 @@
 ---
 layout: code_smell
-title: Mutable Data
+title: 可变数据（Mutable Data）
 source: Martin Fowler
 ---
 
-# Mutable Data
-Data is changed during runtime, and other parts of the program keep a reference to it. When you update an existing data structure, all the clients that have a reference to it will be affected. Sometimes it's hard to predict what will happen, or it leads to synchronization problems in threaded code. An alternative to updating the data in-place is to return a copy of the whole data structure containing the updates. Functional programming often works this way. Even in object-oriented contexts you find immutable data structures though. For example strings - if you append something to one, you get back a new string.
+# 可变数据（Mutable Data）
+数据在运行时被改变，而程序的其他部分会保留对它的引用。当你更新一个现有的数据结构时，所有对它有引用的客户端都会受到影响。有时很难预测会发生什么，或者会导致线程代码的同步问题。一个替代原地更新数据的方法是返回包含更新内容的整个数据结构的副本。函数式编程经常采用这种方式。即使在面向对象的情况下，你也会发现不可变的数据结构。例如，字符串 —— 如果你在其中追加了什么，你会得到一个新的字符串。
 
-Code that uses immutable datastructures if often easier to understand and reason about.
+使用不可变的数据结构的代码，通常更容易理解和推理。
 
