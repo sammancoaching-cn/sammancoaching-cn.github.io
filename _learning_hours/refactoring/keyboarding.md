@@ -1,58 +1,59 @@
 ---
 theme: refactoring
 name: keyboarding
-title: Keyboarding skills
+title: 键盘操作技能
 kata: tennis
 difficulty: 2
 author: emilybache
 affiliation: ProAgile
 ---
 
-# Keyboarding skills
+# 键盘操作技能
 
-Exercises to increase fluency with refactoring by practicing using keyboard shortcuts more.
+通过练习更多使用键盘快捷键来提高重构的流畅性。
 
-## Learning Goals
+## 学习目标
 
-* Use keyboard shortcuts for Move Line, Inline, Multiple Cursors, Expand Selection
-* Identify what happens when you do 'inline' on methods and variables
+* 使用键盘快捷键移动行、内联、多个光标、扩展选区
+* 识别当你在方法和变量上做 "内联" 时会发生什么
 
-## Session Outline
+## 会议概要
 
-* 2 min connect: keyboard shortcuts you use a lot
-* 10 mins concept and do: Move Line
-* 10 mins concept and do: Navigation
-* 10 mins concept and do: Inline
-* 10 mins concept and do: Multi Cursor
-* 10 mins concept and do: Expand Selection
-* 2 min reflect: note most useful shortcuts
+* 2分钟连接：你经常使用的键盘快捷键
+* 10分钟概念和操作：移动行
+* 10分钟概念和操作：导航
+* 10分钟的概念和操作：内联
+* 10分钟的概念和操作：多光标
+* 10分钟的概念和操作：扩展选区
+* 2分钟思考：注意到的最有用的快捷键
 
-### Connect: keyboard shortcuts you use a lot
-What are the keyboard shortcuts that you use the most while coding? Dot voting, up to 5 votes each:
+### 连接：你经常使用的键盘快捷键
+在编码时，你最常使用的键盘快捷键是什么？点投票，每个人最多5票。
 
-* Copy
-* Cut
-* Paste
-* Move Line
-* Expand Selection
-* Rename
-* Extract Method/Function
-* Delete
-* Introduce Variable
-* Create Cursor/Caret
-* Inline
-* Navigate to definition
-* Find Usages
-* Introduce Constant
-* Undo
-* Bold text
-* Find in files
-* Comment lines
+* 复制
+* 剪切
+* 粘贴
+* 移动行
+* 扩大选区
+* 重命名
+* 提取方法/功能
+* 删除
+* 引入变量
+* 创建光标/插入符
+* 内联
+* 导航到定义
+* 查找使用方法
+* 引入常量
+* 撤销
+* 加粗文本
+* 在文件中查找
+* 注释行
 
-The goal is just to remind people they already know some shortcuts, even if it's only Ctrl-C for copy and Ctrl-V for paste.
+目的只是为了提醒人们他们已经知道一些快捷键，即使只是 Ctrl+C 的复制和 Ctrl+V 的粘贴。
 
-### Concept and do
-Use the [Keyboard Shortcut Katas](https://github.com/emilybache/KeyboardShortcutKatas.Net). The five sections are listed in the README. For each one, present the challenge, get people to identify the relevant keyboard shortcuts, and let them work on it individually.
+### 概念和练习
+使用 [键盘快捷键Katas](https://github.com/emilybache/KeyboardShortcutKatas.Net)。这 5 个部分在 README 中列出。对于每一个部分，提出挑战，让人们找出相关的键盘快捷键，并让他们单独工作。
 
-### Conclusions
-Get a sticky note to keep next to your screen. Note down on it one or two keyboard shortcuts that you will try to use more often now.
+### 结论
+找一张便条，放在你的屏幕旁边。在上面记下一到两个你接下来会尝试经常使用的键盘快捷键。
+

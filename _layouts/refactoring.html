@@ -3,7 +3,7 @@ layout: homepage
 ---
 {{ content }}
 
-<h2>Prompted by Code Smells </h2>
+<h2>提到的代码坏味道 </h2>
 <p>
     <ul>
     {% assign sorted_smells = site.code_smells | sort: 'title' %}
@@ -17,7 +17,7 @@ layout: homepage
 </ul>
 </p>
 
-<h2>Relevant Learning Hours </h2>
+<h2>相关的学习时间 </h2>
 <p>
 <ul>
     {% assign sorted_lhs = site.learning_hours | sort: 'title' %}
@@ -31,18 +31,19 @@ layout: homepage
 </ul>
 </p>
 
-<h2>Sources</h2>
+<h2>来源</h2>
 <p>
 <ul>
     {% if page.source == 'Martin Fowler' %}
-    <li>This refactoring is included Martin Fowler's book <a href="{{ page.source_url }}">"Refactoring", 2nd Edition</a></li>
+    <li>这个重构手法包含在 Martin Fowler 的书 <a href="{{ page.source_url }}">《重构》, 第2版</a></li>
     {% endif %}
     {% if page.source != 'Martin Fowler' %}
     <li>This refactoring was contributed to this site by {{ page.source }}</li>
+    <li>这个重构手法是由以下人员贡献给本网站的 {{ page.source }}</li>
     {% endif %}
 
 </ul>
 </p>
 <p>
-    Back to <a href="/reference/refactorings/index.html">All Refactorings</a>
+    返回到 <a href="/reference/refactorings/index.html">全部重构</a>
 </p>

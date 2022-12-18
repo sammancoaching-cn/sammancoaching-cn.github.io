@@ -21,7 +21,7 @@ title:  重构
 
 在 JetBrains 的工具系列中，我建议当你右击一个程序元素时在这 3 个菜单中寻找。
 * "上下文操作 - Context Action"。
-* "重构这里 - Refactor This" - 也可在顶层的菜单 "重构 Refactor" 中找到。
-* "生成 - Generate " --也可在顶层的 "代码 Code" 菜单中找到。
+* "重构这里 - Refactor This" - 也可在顶部的菜单 "重构 / Refactor" 中找到。
+* "生成 - Generate" - 也可在顶部的 "代码 / Code" 菜单中找到。
 
 一旦你找到了你想要的选项，我建议学习它的键盘快捷键。

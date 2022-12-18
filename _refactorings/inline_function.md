@@ -7,30 +7,31 @@ code_smells: lazy_element
 learning_hours: keyboarding
 ---
 
-# Inline function / Inline method
+# 内联函数 / 内联方法（Extract function / Extract method）
 
-## Identify
-Identify a function or method which you would like to replace with its body in some or all of the places it's used. 
+## 识别
+识别一个函数或方法，你想在它使用的一些或所有地方用它的主体来替换它。
 
-## Prepare
-If you plan to remove the original function or method, you should make a list of all the places it is used so you can go through and inline them one by one. If you only want to inline some usages, then you probably don't need to.
+## 准备
+如果你打算删除原来的函数或方法，你应该列出所有使用该函数或方法的地方，这样你就可以一个一个地去内联它们。如果你只想内联一些用法，那么你可能不需要这样做。
 
-* IDE: with the cursor on the function declaration, Find Usages.
-* Alternatively - "lean on the compiler" - rename it and see what breaks.
+* IDE：将光标放在函数声明上，查找使用情况。
+* 可选 - "依靠编译器" - 重命名它，看看有什么问题。
 
-## Refactor
-* IDE: with the cursor on the function declaration, Refactoring menu, Inline
+## 重构
+* IDE：将光标放在函数声明上，重构菜单，Inline
 
-If that doesn't work, these are some manual steps:
-* For each usage you want to inline: 
-  * Comment out the call so you still have it there to refer to. 
-  * Copy the function body and paste it into the caller code under where you commented it out. 
-  * Fix it up until it compiles.
-  * Test.
+如果这不起作用，可以采取一些手动步骤。
+* 对于每个你想内联的用法。
+  * 注释出调用，这样你就可以在那里引用它了。
+  * 复制函数主体，并将其粘贴到你注释出来的地方下面的调用者代码中。
+  * 修复它，直到它可以编译。
+  * 测试。
 
-## Clean
-* Delete any commented-out code
-* Remove the original function definition if and when it is no longer used.
+## 清理
+* 删除任何注释过的代码
+  * 如果不再使用原函数定义，则删除它。
 
-## Follow up
-If you have inlined something in a lot of places you may have created duplication. You may want to extract a new method for some or all of it.
+## 后续行动
+如果你在很多地方内联了一些东西，你可能已经造成了重复。你可能想为它的一部分或全部提取一个新方法。
+
